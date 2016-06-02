@@ -1,18 +1,13 @@
 package com.pwdgame.test;
 
-import java.util.logging.Logger;
-
-import android.R.bool;
-import android.R.integer;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.widget.Toast;
 
 import com.pwdgame.jni.IMProtocol;
 
-public class MainActivity extends Activity{
+public class SocketActivity extends Activity{
 
 	private static final String TAG = "ajm";
 	private static boolean isServerRun = true;
